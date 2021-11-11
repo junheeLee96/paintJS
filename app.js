@@ -49,7 +49,7 @@ function handleColorClick(event){
 }
 
 function handeRangeChange(event){
-    const dize = event.target.value;
+    const size = event.target.value;
     ctx.lineWidth = size;
 }
 
